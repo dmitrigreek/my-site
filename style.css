@@ -50,6 +50,47 @@ time {
   color: #6a2cce;
 }
 
+a[href] {
+  color: #0099ef;
+  text-decoration-line: underline;
+}
+
+.days {
+  list-style: none;
+  padding-left: 0;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figure img {
+  vertical-align: middle;
+  border: 8px solid rgb(202, 224, 248);
+}
+
+figcaption {
+  width: 502px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  font-style: italic;
+  text-align: center;
+  background-color: rgb(202, 224, 248);
+}
+
+.pagination a {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+.pagination {
+  text-align: center;
+  color: #888888;
+}
+
 .danger-text {
   color: #ff4400;
 }
@@ -61,7 +102,7 @@ time {
 
 .no-danger-block {
   padding: 5px 10px;
-  background-color: #40e0d0;
+  background-color: #c6f5f0;
 }
 
 footer {
